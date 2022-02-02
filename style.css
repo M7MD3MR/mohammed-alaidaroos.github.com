@@ -6,10 +6,6 @@
     scroll-behavior: smooth;
 }
 
-body{
-
-}
-
 header{
     background-color: #f0f0f0;
     width: 100%;
@@ -23,15 +19,14 @@ header{
 
 .logo{
     text-decoration: none;
-    color: #3a6cf4;
+    color: red;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em; /** em is the default pixels in a web browser * 1.8 (as in here)**/
-
 }
 
 .navigation a{
-    color: #3a6cf4;
+    color: red;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
@@ -39,5 +34,68 @@ header{
 }
 
 .navigation a:hover{
-    color: blue;
+    color: darkred;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/New\ Project.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2{
+    color: black;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: red;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3{
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn{
+    color: #ffffff;
+    background-color: #ff0000;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.4s ease;
+}
+
+.main-btn:hover{
+    background-color: rgb(206, 0, 0);
+    transform: scale(1.1);
+}
+
+.social-icons a{
+    color: black;
+    font-size: 1.7em;
+    padding-right: 30px;
 }
