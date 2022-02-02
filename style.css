@@ -7,18 +7,37 @@
 }
 
 body{
-    background-color: rgb(216, 216, 216);
+
 }
 
-h1{
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
     text-decoration: none;
-    font-size: xx-large;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em; /** em is the default pixels in a web browser * 1.8 (as in here)**/
+
 }
 
-a{
-    font-size: large;
+.navigation a{
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
 }
 
-p{
-    font-size: 12px;
+.navigation a:hover{
+    color: blue;
 }
