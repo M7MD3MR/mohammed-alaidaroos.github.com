@@ -258,6 +258,12 @@ section{
     color: #3a6cf4;
 }
 
+.list-hobbies{
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #000016;
+}
+
 @media (max-width:1023px){
     header{
         padding: 12px 20px;
