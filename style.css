@@ -19,6 +19,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 200px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
 }
 
 .logo{
@@ -126,7 +127,7 @@ section{
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
     padding: 25px;
-    margin: 15px; 
+    margin: 30px; 
     transition: 0.4s ease; 
 }
 
@@ -149,4 +150,65 @@ section{
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
+}
+
+.videos {
+    background-color: darkgray;
+}
+
+.videos .content{
+    margin-top: 30px;
+    display: inline-flex;
+    overflow: hidden;
+
+}
+
+.video-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.4s ease
+}
+
+.video-card:hover{
+    transform: scale(1.1);
+}
+
+.video-card:hover .video-image{
+    opacity: 0.9;
+} 
+
+.video-image img{
+    width: 100%;
+}
+
+.video-info{
+    padding: 1em;
+}
+
+.video-category{
+    font-size: 0.8em;
+    color: #000000;
+}
+
+.video-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    font-size: smaller;
+}
+
+.more-details{
+    text-decoration: none;
+    color: darkred;
+}
+
+.more-details:hover{
+    color: red;
 }
