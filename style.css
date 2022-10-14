@@ -265,6 +265,16 @@ section{
     color: #000016;
 }
 
+.view-program{
+    text-decoration: none;
+    color: darkred;
+}
+
+.view-program:hover{
+    color: red;
+}
+
+
 @media (max-width:1023px){
     header{
         padding: 12px 20px;
