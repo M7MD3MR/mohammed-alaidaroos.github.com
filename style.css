@@ -24,7 +24,7 @@ header{
 
 .logo{
     text-decoration: none;
-    color: red;
+    color: rgb(255, 0, 0);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em; /** em is the default pixels in a web browser * 1.8 (as in here)**/
@@ -100,7 +100,7 @@ section{
 }
 
 .social-icons a{
-    color: black;
+    color: red;
     font-size: 1.7em;
     padding-right: 30px;
 }
@@ -159,9 +159,10 @@ section{
 .videos .content{
     margin-top: 30px;
     display: inline-flex;
-    overflow: hidden;
-    flex-direction: row;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px; 
 }
 
 .video-card{
@@ -291,7 +292,7 @@ section{
     }
 
     .content{
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
