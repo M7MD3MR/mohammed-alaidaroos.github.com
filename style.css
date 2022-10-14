@@ -274,6 +274,15 @@ section{
     color: red;
 }
 
+.project{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 5px;
+    padding: 5px;
+}
+
 
 @media (max-width:1023px){
     header{
