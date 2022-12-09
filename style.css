@@ -315,6 +315,12 @@ section{
         align-items: center;
     }
 
+    .card {
+        width: 18.25em;
+        padding: 12.5px;
+        margin: 15px;
+    }
+
 }
 
 @media (max-width:641px){
@@ -336,6 +342,14 @@ section{
         font-size: 10px;
     }
 
+    .social-icons a{
+        padding-right: 15px;
+    }
+
+    .logo a{
+        font-size: 5px;
+        font-weight: 300;
+    }
 
 
     
